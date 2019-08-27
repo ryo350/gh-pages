@@ -4,4 +4,4 @@ plugins:
 whiltelist:
   - jekyll-redirect-from
 
-baseurl: "github.com"
+baseurl: ""
