@@ -1,0 +1,7 @@
+plugins:
+  - jekyll-redirect-from
+
+---
+redirect_from: "/ptg/"
+redirect_to: http://www.github.com
+---
