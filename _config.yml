@@ -6,3 +6,4 @@ whiltelist:
 
 baseurl: "github.com"
 redirect_from: "/gh-pages/"
+permalink: "/:path"
