@@ -5,4 +5,4 @@ whiltelist:
   - jekyll-redirect-from
 
 redirect_from:
-  - "https://ryo350.github.io/gh-pages/ptg/"
+  - "/gh-pages/ptg/"
