@@ -4,5 +4,7 @@ plugins:
 whiltelist:
   - jekyll-redirect-from
 
+
+baseurl: "https://twitter.com"
 redirect_from:
   - "/gh-pages/tnf/"
