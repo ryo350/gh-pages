@@ -1,10 +1,7 @@
+permalink: /ptg/:path/
+
 plugins:
   - jekyll-redirect-from
 
 whiltelist:
   - jekyll-redirect-from
-
-
-baseurl: "https://twitter.com"
-redirect_from:
-  - "/gh-pages/tnf/:uuid/"
