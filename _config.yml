@@ -1,8 +1,2 @@
 plugins:
   - jekyll-redirect-from
-
-whiltelist:
-  - jekyll-redirect-from
-
-redirect_to:
-  - https://twitter.com
