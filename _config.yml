@@ -1,5 +1,8 @@
 plugins:
   - jekyll-redirect-from
 
-permalink: /
+---
+title: tag
+redirect_from: "/ptg"
 redirect_to: http://www.github.com
+---
