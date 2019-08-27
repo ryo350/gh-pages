@@ -1,7 +1,7 @@
-permalink: /ptg/:path/
-
 plugins:
   - jekyll-redirect-from
 
 whiltelist:
   - jekyll-redirect-from
+
+baseurl: "gh-pages"
