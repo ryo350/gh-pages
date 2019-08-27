@@ -3,5 +3,3 @@ plugins:
 
 whiltelist:
   - jekyll-redirect-from
-
-baseurl: ""
