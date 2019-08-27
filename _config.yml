@@ -5,3 +5,4 @@ whiltelist:
   - jekyll-redirect-from
 
 baseurl: "github.com"
+redirect_from: "/"
