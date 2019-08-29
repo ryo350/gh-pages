@@ -3,3 +3,6 @@ plugins:
 
 whiltelist:
   - jekyll-redirect-from
+
+include:
+  - .htaccess
