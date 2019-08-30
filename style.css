@@ -1,0 +1,49 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+p {
+    margin-bottom: 2em;
+}
+ol {
+    padding: 0;
+    margin-bottom: 3em;
+}
+ol li {
+    display: inline;
+}
+ol li a {
+    text-decoration: underline;
+}
+ul {
+    margin-bottom: 4em;
+}
+nav ul {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 1em 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 4em;
+}
+
+.linked::after {
+    content: " >";
+}
+.howto {
+    list-style: decimal;
+}
+.howto li {
+    margin-bottom: 1em;
+}
