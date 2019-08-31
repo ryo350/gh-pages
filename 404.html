@@ -20,9 +20,9 @@
          * Env
          */
 		var path_name = window.location.pathname;
+		var permalink = path_name.split('/');
 
-        console.log(path_name);
-		location.href = "https://github.com/" + path_name;
+		location.href = "https://github.com/" + permalink[0];
 		/*
          * Process
          * (Redirect)
