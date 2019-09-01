@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>appraisal details</title>
+    <title>appraisal detail</title>
     <script>
-		function getParam(name) {
-			var url = window.location.href;
-			name = name.replace(/[\[\]]/g, "\\$&");
-			var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+		let gcs_url = "https://storage.googleapis.com/kix-appraisal/details_images/";
+		let appraisal_id = getUrlParameter('appraisal_id');
+		if (appraisal_id) {
+			location.href = gcs_url + appraisal_id;
+		} else {
+			// 404
+		}
+		function getUrlParameter(key) {
+			let url = window.location.href;
+			key = key.replace(/[\[\]]/g, "\\$&");
+			let regex = new RegExp("[?&]" + key + "(=([^&#]*)|&|#|$)"),
 				results = regex.exec(url);
 			if (!results) return null;
 			if (!results[2]) return '';
 			return decodeURIComponent(results[2].replace(/\+/g, " "));
 		}
-		var key = getParam('key');
-		location.href = "https://github.com/ryo350/" +key;
     </script>
 </head>
 </html>
