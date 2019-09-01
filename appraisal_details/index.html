@@ -3,10 +3,10 @@
 <head>
     <title>appraisal detail</title>
     <script>
-		let gcs_url = "https://storage.googleapis.com/kix-appraisal/details_images/";
-		let appraisal_id = getUrlParameter('appraisal_id');
-		if (appraisal_id) {
-			location.href = gcs_url + appraisal_id;
+		let gcsUrl = "https://storage.googleapis.com/kix-appraisal/details_images/";
+		let appraisalId = getUrlParameter('appraisalId');
+		if (appraisalId) {
+			location.href = gcsUrl + appraisalId;
 		} else {
 			// 404
 		}
