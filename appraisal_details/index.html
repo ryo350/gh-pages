@@ -12,8 +12,6 @@
 		}
 		function getUrlParameter(key) {
 			let url = window.location.href;
-			key = key.replace(/[\[\]]/g, "\\$&");
-
 			let regex = new RegExp("[?&]" + key + "(=([^&#]*)|&|#|$)");
 			let results = regex.exec(url);
 			if (!results) {
