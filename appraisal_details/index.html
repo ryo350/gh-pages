@@ -13,10 +13,15 @@
 		function getUrlParameter(key) {
 			let url = window.location.href;
 			key = key.replace(/[\[\]]/g, "\\$&");
-			let regex = new RegExp("[?&]" + key + "(=([^&#]*)|&|#|$)"),
-				results = regex.exec(url);
-			if (!results) return null;
-			if (!results[2]) return '';
+
+			let regex = new RegExp("[?&]" + key + "(=([^&#]*)|&|#|$)");
+			let results = regex.exec(url);
+			if (!results) {
+				return null;
+			}
+			if (!results[2]) {
+				return '';
+			}
 			return decodeURIComponent(results[2].replace(/\+/g, " "));
 		}
     </script>
