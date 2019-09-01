@@ -4,11 +4,11 @@
     <title>appraisal detail</title>
     <script>
 		let gcsUrl = "https://storage.googleapis.com/kix-appraisal/details_images/";
-		let appraisalId = getUrlParameter('appraisalId');
+		let appraisalId = getUrlParameter("appraisalId");
 		if (appraisalId) {
 			location.href = gcsUrl + appraisalId;
 		} else {
-			// 404
+			location.href = "https://ryo350.github.io/gh-pages/404.html";
 		}
 		function getUrlParameter(key) {
 			let url = window.location.href;
